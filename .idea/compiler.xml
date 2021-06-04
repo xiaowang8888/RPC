@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RPC-example" />
+        <module name="RPC-transport" />
+        <module name="RPC-codec" />
+        <module name="RPC-proto" />
+        <module name="RPC-server" />
+        <module name="RPC-client" />
+        <module name="RPC-common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RPC" options="" />
+      <module name="RPC-client" options="" />
+      <module name="RPC-codec" options="" />
+      <module name="RPC-common" options="" />
+      <module name="RPC-example" options="" />
+      <module name="RPC-proto" options="" />
+      <module name="RPC-server" options="" />
+      <module name="RPC-transport" options="" />
+    </option>
+  </component>
+</project>
